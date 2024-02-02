@@ -1,4 +1,4 @@
 /* TEAM */
 Developer: Corentin Thomasset
-Site: https://github.com/CorentinTh
+Site: https://www.alone-hk.cn
 Twitter: @cthmsst
