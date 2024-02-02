@@ -64,7 +64,7 @@ const tools = computed<ToolCategory[]>(() => [
             Sit-Tools
 
             <c-link target="_blank" rel="noopener" :href="``">
-              v{{ version }}
+              By
             </c-link>
 
             <template v-if="commitSha && commitSha.length > 0">
@@ -73,16 +73,16 @@ const tools = computed<ToolCategory[]>(() => [
                 target="_blank"
                 rel="noopener"
                 type="primary"
-                :href="``"
+                :href="`https://www.alone-hk.cn`"
               >
-                {{ commitSha }}
+                Lonely Sit
               </c-link>
             </template>
           </div>
           <div>
             © {{ new Date().getFullYear() }}
-            <c-link target="_blank" rel="noopener" href="https://www.alone-hk.cn">
-              Corentin Thomasset
+            <c-link target="_blank" rel="noopener" href="https://team.alone-hk.cn">
+              Light cloud security
             </c-link>
           </div>
         </div>
